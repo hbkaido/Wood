@@ -1,0 +1,264 @@
+body
+{
+    color: #FFFFFF;
+    font-family: 'Ubuntu','Trebuchet MS', sans-serif;
+    background-image: url(inscription.jpg);
+    min-height: 100%;
+    position: relative;
+    background-position: 50% 60%;
+}
+
+/* Sign up */
+
+.main {
+    background-color: #FFFFFF;
+    width: 400px;
+    height: 550px;
+    margin: -4em auto;
+    border-radius: 1.5em;
+    box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+}
+
+.sign {
+    padding-top: 40px;
+    color: #8C55AA;
+    font-family: 'Ubuntu', 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+    text-align: center;
+}
+
+.un {
+    width: 76%;
+    color: rgb(38, 50, 56);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background: rgba(136, 126, 126, 0.04);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.02);
+    margin-bottom: 50px;
+    margin-left: 46px;
+    text-align: center;
+    margin-bottom: 27px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+form.form1 {
+    padding-top: 20px;
+}
+
+.pass {
+    width: 76%;
+    color: rgb(38, 50, 56);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background: rgba(136, 126, 126, 0.04);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.02);
+    margin-bottom: 50px;
+    margin-left: 46px;
+    text-align: center;
+    margin-bottom: 27px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+.un:focus, .pass:focus {
+    border: 2px solid rgba(0, 0, 0, 0.18) !important;
+
+}
+
+.signup {
+    color: white;
+    cursor: pointer;
+    border-radius: 5em;
+    background: linear-gradient(to right, #703669, #E040FB);
+    border: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 27%;
+    font-size: 14px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+}
+
+.signup:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.facebook{
+    font-size: 14px;
+    text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+    padding-top: 15px;
+    text-align: center;
+}
+
+.facebook a{
+    color: purple;
+}
+
+.form1 a {
+    text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+    text-decoration: none;
+}
+
+@media (max-width: 600px) {
+    .main {
+        border-radius: 0px;
+    }
+}
+
+/* Header */
+
+* {box-sizing: border-box;}
+
+.header {
+    overflow: hidden;
+    padding: 20px 10px;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+    margin: 10px 40px 0 40px;;
+}
+
+.header a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 20px; 
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+
+.header .header-right a:hover {
+    background-color: #ddd;
+    color: black;
+    text-decoration: none;
+}
+
+.header a.active {
+    background-color: #703669;
+    color: white;
+}
+
+.header-right {
+    float: right;
+}
+
+@media screen and (max-width: 500px) {
+    .header a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+
+/* Footer */
+
+.footer-dark {
+    padding:30px;
+    color:#f0f9ff;
+    background-color:#24122a;
+    position: absolute;
+    top: 780px;
+    position: absolute; bottom: 1; left: 0; right: 0;
+}
+
+.footer-dark h3 {
+    margin-top:0;
+    margin-bottom:12px;
+    font-weight:bold;
+    font-size:16px;
+}
+
+.footer-dark ul {
+    padding:0;
+    list-style:none;
+    line-height:1.6;
+    font-size:14px;
+    margin-bottom:0;
+}
+
+.footer-dark ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.6;
+}
+
+.footer-dark ul a:hover {
+    opacity:0.8;
+}
+
+@media (max-width:767px) {
+    .footer-dark .item:not(.social) {
+        text-align:center;
+        padding-bottom:20px;
+    }
+}
+
+.footer-dark .item.text {
+    margin-bottom:36px;
+}
+
+@media (max-width:767px) {
+    .footer-dark .item.text {
+        margin-bottom:0;
+    }
+}
+
+.footer-dark .item.text p {
+    opacity:0.6;
+    margin-bottom:0;
+}
+
+.footer-dark .item.social {
+    text-align:center;
+}
+
+@media (max-width:991px) {
+    .footer-dark .item.social {
+        text-align:center;
+        margin-top:20px;
+    }
+}
+
+.footer-dark .item.social > a {
+    font-size:20px;
+    width:36px;
+    height:36px;
+    line-height:36px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    box-shadow:0 0 0 1px rgba(255,255,255,0.4);
+    margin:0 8px;
+    color:#fff;
+    opacity:0.75;
+}
+
+.footer-dark .item.social > a:hover {
+    opacity:0.9;
+}
+
+.footer-dark .copyright {
+    text-align:center;
+    padding-top:24px;
+    opacity:0.3;
+    font-size:13px;
+    margin-bottom:0;
+}
