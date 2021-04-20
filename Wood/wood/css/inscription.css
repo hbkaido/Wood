@@ -115,15 +115,13 @@ form.form1 {
     text-decoration: none;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     .main {
-        border-radius: 0px;
+        margin-top: 50px;
     }
 }
 
 /* Header */
-
-* {box-sizing: border-box;}
 
 .header {
     overflow: hidden;
@@ -158,14 +156,6 @@ form.form1 {
 
 .header-right {
     float: right;
-}
-
-@media screen and (max-width: 500px) {
-    .header a {
-        float: none;
-        display: block;
-        text-align: left;
-    }
 }
 
 /* Footer */
@@ -208,6 +198,9 @@ form.form1 {
     .footer-dark .item:not(.social) {
         text-align:center;
         padding-bottom:20px;
+    }
+    .footer-dark{
+        margin-top: 60px;
     }
 }
 

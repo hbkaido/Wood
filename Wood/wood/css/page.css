@@ -1,6 +1,34 @@
 body{
     margin: auto;
     font-family: 'Ubuntu','Trebuchet MS', sans-serif;
+    background-color: white;
+}
+
+
+/* Dark Mode */
+
+body.dark {
+    color: #fff;
+    background: #333;
+}
+
+body.dark .btn-toggle, body.light .btn-toggle{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+body.dark .btn-toggle:hover, body.dark .compte:hover{
+    background-color: grey;
+}
+
+body.dark .modal-wrap, body.dark .compte, body.dark h2, body.dark h4, body.dark .btn-toggle, body.dark .popup{
+    background: #333;
+    color: #f2f2f2;
+}
+
+body.dark .wood, body.dark .achat, body.dark .close{
+    background: #333;
+    color: darkorange;
 }
 
 /* Header */
@@ -31,6 +59,7 @@ body{
 .header-right {
     float: right;
     margin: -70px 20px 0 0;
+    display: inline-block;
 }
 .header-left {
     display: flex;
@@ -146,6 +175,7 @@ body{
 .deer
 {
     height: 350px;
+    margin-left: 30px;
 }
 
 .pourcent{
@@ -265,6 +295,12 @@ body{
     overflow: auto;
 }
 
+@media screen and (max-width: 1500px){
+    .deer{
+        display:none;
+    }
+}
+
 @media screen and (max-width: 1000px){
     .popup{
         width: 70%;
@@ -278,10 +314,6 @@ body{
     #box1, #box2, #box3, #box4 {
         margin-top: 30px;
         margin-left: 100px;
-    }
-
-    .deer{
-        margin-left: 20px;
     }
 }
 
@@ -302,7 +334,7 @@ h2,h4{
     margin-top: 12px;
 }
 
-.compte {
+.compte, .btn-toggle {
     text-align: left;
     color: black;
     width: 100%;
@@ -319,7 +351,7 @@ h2,h4{
     vertical-align: text-bottom;
 }
 
-.compte:hover{
+.btn-toggle:hover, .compte:hover{
     background-color: grey;
     width: 100%;
     height: 35px;
@@ -432,7 +464,7 @@ h2,h4{
     position: relative;
     display: block;
     width: 100%;
-    height: 350px;
+    height: 370px;
     max-width: 250px;
     margin: 0 auto;
     border-radius: 4px;
