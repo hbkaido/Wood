@@ -103,7 +103,7 @@ body
     }
 
     .bienvenue{
-        font-size: 25px;
+        font-size: 27px;
         margin: 20px;
     }
     .page .button{
@@ -165,7 +165,7 @@ body
     color: #f0f9ff;
     background-color: #130f28;
     position: absolute;
-    top: 730px;
+    top: 710px;
     position: absolute; bottom: 1; left: 0; right: 0;
 }
 

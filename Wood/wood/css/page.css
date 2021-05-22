@@ -4,7 +4,6 @@ body{
     background-color: white;
 }
 
-
 /* Dark Mode */
 
 body.dark {
@@ -81,7 +80,6 @@ body.dark .wood, body.dark .achat, body.dark .close{
     background: url('header.jpg');
     background-position: bottom;
     height: auto;
-    width: auto;
 }
 
 .twitter{
@@ -295,6 +293,14 @@ body.dark .wood, body.dark .achat, body.dark .close{
     overflow: auto;
 }
 
+@media screen and (min-width: 1700px){
+    .footer{
+        position:absolute;
+        bottom:0px;
+        width: 100%;
+    }
+}
+
 @media screen and (max-width: 1500px){
     .deer{
         display:none;
@@ -307,7 +313,7 @@ body.dark .wood, body.dark .achat, body.dark .close{
         margin: 100px;
     }
     .slogan{
-        font-size: 20px;
+        font-size: 25px;
         margin: 20px 100px;
     }
 
